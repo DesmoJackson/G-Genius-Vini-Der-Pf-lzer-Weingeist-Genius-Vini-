@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --background: #0F0D0C;
+    --surface: #181513;
+    --surface-elevated: #211D1A;
+    --foreground: #F5F0E6;
+    --muted: #A39B8B;
+    --accent-gold: #D4AF37;
+    --accent-ruby: #8B1E24;
+    --border-hairline: rgba(245, 240, 230, 0.09);
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--background);
+    color: var(--foreground);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-mono-tabular {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Genius Vini — Der Pfälzer Weingeist",
+  "description": "Multimodale Echtzeit-Sprachapplikation, digitaler Pfälzer Weinkeller mit Terroir-Taxonomie und Chronos-Vibe Prompt-Architektur.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
